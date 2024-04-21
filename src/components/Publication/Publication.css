@@ -1,0 +1,33 @@
+.main-container {
+  padding-top: 5em;
+}
+
+.publication-content {
+  .header-line {
+    padding: 1em 0;
+  }
+}
+.author-highlighted {
+  color: #2185d5;
+}
+
+.header-line {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.detail-line {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.ref-line {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.slim-line {
+  border: 1px solid #3a4750;
+  max-width: 30em;
+}
