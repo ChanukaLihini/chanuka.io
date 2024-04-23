@@ -3,15 +3,30 @@
     max-height: 200px;
     padding: 2em 4em;
     color: white;
+    animation: headerLineAnimation  1s ease 0s 1 normal forwards;
 }
 
 .title {
     border-bottom: 4px #2185d5 solid;
     display: inline;
-    position: relative
+    position: relative;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .title-line {
     margin-top: 2px;
     border: 2px solid #3a4750;
+}
+
+
+@keyframes headerLineAnimation {
+    0% {
+		transform: scaleX(0.75);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
 }

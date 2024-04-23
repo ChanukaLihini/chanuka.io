@@ -1,16 +1,17 @@
 import React from "react";
-import ProfileImage from "./ProfileImage";
+import ProfileImage from "../ProfileImage";
+import './Profile.css';
 
 function Profile() {
     return (
-        <div class="profile">
+        <div className="profile">
             <ProfileImage />
-            <div class="profile-content">
+            <div className="profile-content">
                 <h1>Chanuka Lihini</h1>
                 <h2>Graduate Researcher</h2>
                 <h2>University of Moratuwa</h2>
 
-                <button class="cv-download" onClick={downloadCV}>Download CV</button>
+                <button className="cv-download" onClick={downloadCV}>Download CV</button>
             </div>
         </div>
     )

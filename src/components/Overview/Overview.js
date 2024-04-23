@@ -1,9 +1,20 @@
 import React from "react";
-import ResearchCard from "../ResearchCard";
+import ResearchCard from "./ResearchCard";
+import './Overview.css';
+import { ResearchContent } from "../../data/ResearchData";
+import HeaderLine from "../HeaderLine";
 
 function Overview() {
+
     return (<>
-        <ResearchCard />
+       <div className="overview-container">
+       <HeaderLine title="Research" />
+        <div className="research-card--list">
+            {ResearchContent.map((props, index) => {
+                return (<div ><ResearchCard key={index} props={props} /></div>);
+            })}
+        </div>
+       </div>
     </>)
 }
 

@@ -1,0 +1,10 @@
+.academic-profiles {
+  display: flex;
+  justify-content: end;
+  padding-right: 5em;
+}
+
+.academic-profile--logo {
+  max-width: 3em;
+  padding-left: 2em;
+}

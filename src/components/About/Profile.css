@@ -1,0 +1,38 @@
+.profile {
+  display: flex;
+  /* justify-content: space-between; */
+  width: fit-content;
+  padding-top: 6em;
+}
+
+.profile-content {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-left: 5em;
+
+  h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1em;
+  }
+
+  p {
+    font-weight: 100;
+  }
+}
+
+.cv-download {
+  height: 3em;
+  font-size: large;
+  border-radius: 5em;
+  width: 8em;
+  background-color: #3a4750;
+  color: white;
+  border: #2185d5 solid 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

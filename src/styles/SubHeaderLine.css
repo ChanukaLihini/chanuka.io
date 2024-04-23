@@ -2,6 +2,12 @@
     font-family: 'Roboto', sans-serif;
     padding: 0 5em;
     color: white;
+
+    h2{
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
 }
 
 .timeline-card {
@@ -13,6 +19,22 @@
     height: fit-content;
 }
 
+.timeline-card:hover{
+    background-color: #2185d5;
+    color: white;
+    animation: timelineCardAnimation 1s ease 0s 1 normal forwards;
+}
+
+@keyframes timelineCardAnimation {
+    0% {
+        transform: scaleX(0.5);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
 .main-line{
     display: flex;
     justify-content: space-between;
@@ -22,4 +44,6 @@
 
 .sub-line{
     margin-top: -0.5em;
+    font-size: 17px;
+    font-weight: 100;
 }

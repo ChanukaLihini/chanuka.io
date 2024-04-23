@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../Profile";
+import Profile from "./Profile";
 import HeaderLine from "../HeaderLine";
 import SubHeaderSection from "../SubHeaderSection";
 import { EducationalQualifications, Experiences } from "../../data/AboutPageData";
@@ -9,7 +9,7 @@ function About() {
 
     return (
         <>
-            <div>
+            <div className="about-profile">
                 <Profile />
             </div>
             <HeaderLine title="Education" />

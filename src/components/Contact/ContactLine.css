@@ -1,0 +1,15 @@
+.contact-line {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 1.25em;
+  color: white;
+  padding-left: 3em;
+  display: inline-flex;
+  font-weight: 200;
+
+  .contact-line--key {
+    font-size: 25px;
+    font-weight: 400;
+    padding-right: 1em;
+  }
+}

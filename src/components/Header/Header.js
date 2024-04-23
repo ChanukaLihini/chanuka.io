@@ -19,7 +19,7 @@ function Header() {
         <>
             <Router>
                 <nav className="main-nav">
-                    <Link className="main-nav--logo  main-nav--text" to="/">Chanuka Lihini</Link>
+                    <Link className="main-nav--logo  main-nav--text" to="/">Home</Link>
                     <div className="main-nav--links">
                         <Link className="main-nav--text" to="/about">About</Link>
                         <div className="main-nav-dropdown">

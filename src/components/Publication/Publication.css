@@ -1,30 +1,25 @@
-.main-container {
-  padding-top: 5em;
-}
 
 .publication-content {
-  .header-line {
-    padding: 1em 0;
+  .publication-line--header {
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .publication-line--detailed {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+
+  .publication-line--ref {
+    font-size: 18px;
+    letter-spacing: 0.5px;
   }
 }
 .author-highlighted {
   color: #2185d5;
-}
-
-.header-line {
-  font-size: 20px;
-  letter-spacing: 1.5px;
-}
-
-.detail-line {
-  font-size: 16px;
-  font-weight: 200;
-  letter-spacing: 1px;
-}
-
-.ref-line {
-  font-size: 18px;
-  letter-spacing: 0.5px;
+  font-weight: 900;
 }
 
 .slim-line {
