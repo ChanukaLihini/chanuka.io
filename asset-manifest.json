@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chanuka.io/static/css/main.6aa2cfaf.css",
-    "main.js": "/chanuka.io/static/js/main.763d6ec1.js",
+    "main.js": "/chanuka.io/static/js/main.ddbb6921.js",
     "static/js/453.ae89378e.chunk.js": "/chanuka.io/static/js/453.ae89378e.chunk.js",
     "static/media/sample.mp4": "/chanuka.io/static/media/sample.feb6353d7a549f0cc945.mp4",
     "static/media/overview03_3.png": "/chanuka.io/static/media/overview03_3.724cef4bc8b295a9fc6d.png",
@@ -21,11 +21,11 @@
     "static/media/LinkedIn_logo.png": "/chanuka.io/static/media/LinkedIn_logo.b6fe5de3515687849a75.png",
     "index.html": "/chanuka.io/index.html",
     "main.6aa2cfaf.css.map": "/chanuka.io/static/css/main.6aa2cfaf.css.map",
-    "main.763d6ec1.js.map": "/chanuka.io/static/js/main.763d6ec1.js.map",
+    "main.ddbb6921.js.map": "/chanuka.io/static/js/main.ddbb6921.js.map",
     "453.ae89378e.chunk.js.map": "/chanuka.io/static/js/453.ae89378e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6aa2cfaf.css",
-    "static/js/main.763d6ec1.js"
+    "static/js/main.ddbb6921.js"
   ]
 }
