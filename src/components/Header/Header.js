@@ -13,7 +13,7 @@ import OverviewNo3 from "../Overview/OverviewDescription/OverviewNo3";
 
 function Header() {
     const [researchClicked, setResearchClicked] = useState(false);
-    const basePath = '/chanuka.io';
+    const basePath = '';
 
     const onResearchClick = () => {
         setResearchClicked(!researchClicked)
@@ -21,7 +21,7 @@ function Header() {
 
     return (
         <>
-            <Router>
+            <HashRouter>
                 <nav className="main-nav">
                     <Link className="main-nav--logo  main-nav--text" to={basePath}></Link>
                     <div className="main-nav--links">
@@ -47,9 +47,8 @@ function Header() {
                     <Route path={basePath+ "/overview/overview-02"}element={<OverviewNo2/>} />
                     <Route path={basePath+ "/overview/overview-03"} element={<OverviewNo3/>} />
                     <Route path="*" element={<Navigate to={basePath + "/"} replace />} />
-
                 </Routes>
-            </Router>
+            </HashRouter>
 
         </>
     );
