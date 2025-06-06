@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chanuka.io/static/css/main.0456a821.css",
+    "main.css": "/chanuka.io/static/css/main.635d021e.css",
     "main.js": "/chanuka.io/static/js/main.eb61d8f0.js",
     "static/js/453.ae89378e.chunk.js": "/chanuka.io/static/js/453.ae89378e.chunk.js",
     "static/media/sample.mp4": "/chanuka.io/static/media/sample.feb6353d7a549f0cc945.mp4",
@@ -20,12 +20,12 @@
     "static/media/GoogleScholar_logo.png": "/chanuka.io/static/media/GoogleScholar_logo.133e439a87fbe8c810f6.png",
     "static/media/LinkedIn_logo.png": "/chanuka.io/static/media/LinkedIn_logo.b6fe5de3515687849a75.png",
     "index.html": "/chanuka.io/index.html",
-    "main.0456a821.css.map": "/chanuka.io/static/css/main.0456a821.css.map",
+    "main.635d021e.css.map": "/chanuka.io/static/css/main.635d021e.css.map",
     "main.eb61d8f0.js.map": "/chanuka.io/static/js/main.eb61d8f0.js.map",
     "453.ae89378e.chunk.js.map": "/chanuka.io/static/js/453.ae89378e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0456a821.css",
+    "static/css/main.635d021e.css",
     "static/js/main.eb61d8f0.js"
   ]
 }
