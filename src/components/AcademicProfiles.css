@@ -1,7 +1,7 @@
 .academic-profiles {
   display: flex;
   justify-content: end;
-  padding-right: 5em;
+  padding-right: 5%;
 }
 
 .academic-profile--logo {
