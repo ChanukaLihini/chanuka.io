@@ -13,6 +13,7 @@ import OverviewNo3 from "../Overview/OverviewDescription/OverviewNo3";
 
 function Header() {
     const [researchClicked, setResearchClicked] = useState(false);
+    const basePath = '/chanuka.io';
 
     const onResearchClick = () => {
         setResearchClicked(!researchClicked)
@@ -20,33 +21,33 @@ function Header() {
 
     return (
         <>
-            <HashRouter>
+            <Router>
                 <nav className="main-nav">
-                    <Link className="main-nav--logo  main-nav--text" to="/"></Link>
+                    <Link className="main-nav--logo  main-nav--text" to={basePath}></Link>
                     <div className="main-nav--links">
-                        <Link className="main-nav--text" to="/">Home</Link>
+                        <Link className="main-nav--text" to={basePath}>Home</Link>
                         <div className="main-nav-dropdown">
                             <button className="dropdown-button main-nav--text" onClick={onResearchClick} >Research
                             </button>
                             <div onMouseOut={onResearchClick} className={!researchClicked ? 'dropdown-hide' : 'dropdown-content'}>
-                                <Link className="dropdown--text" to="/overview">Projects</Link>
-                                <Link className="dropdown--text" to="/publications">Publications</Link>
+                                <Link className="dropdown--text" to={basePath + "/overview"}>Projects</Link>
+                                <Link className="dropdown--text" to={basePath+"/publications"}>Publications</Link>
                             </div>
                         </div >
-                        <Link className="main-nav--text" to="/contact">Contact</Link>
+                        <Link className="main-nav--text" to={basePath+ "/contact"}>Contact</Link>
                     </div >
                 </nav >
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/overview" element={<Overview />} />
-                    <Route path="/publications" element={<PublicationList />} />
-                    <Route path="/overview/overview-01" element={<OverviewNo1 />} />
-                    <Route path="/overview/overview-02" element={<OverviewNo2/>} />
-                    <Route path="/overview/overview-03" element={<OverviewNo3/>} />
+                    <Route path={basePath+"/"} element={<Home />} />
+                    <Route path={basePath+ "/about"} element={<About />} />
+                    <Route path={basePath+ "/contact"} element={<Contact />} />
+                    <Route path={basePath+ "/overview"} element={<Overview />} />
+                    <Route path={basePath+ "/publications"} element={<PublicationList />} />
+                    <Route path={basePath+ "/overview/overview-01"} element={<OverviewNo1 />} />
+                    <Route path={basePath+ "/overview/overview-02"}element={<OverviewNo2/>} />
+                    <Route path={basePath+ "/overview/overview-03"} element={<OverviewNo3/>} />
                 </Routes>
-            </HashRouter>
+            </Router>
 
         </>
     );

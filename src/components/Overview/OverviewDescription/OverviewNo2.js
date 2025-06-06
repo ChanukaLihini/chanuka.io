@@ -4,12 +4,13 @@ import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
 
 import "./Overview.css";
+const basePath = '/chanuka.io'
 
 function OverviewNo2() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/overview");
+    navigate(basePath +"/overview");
   };
   return (
     <>
