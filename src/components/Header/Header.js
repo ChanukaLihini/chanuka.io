@@ -20,7 +20,7 @@ function Header() {
 
     return (
         <>
-            <HashRouter>
+            <Router>
                 <nav className="main-nav">
                     <Link className="main-nav--logo  main-nav--text" to="/"></Link>
                     <div className="main-nav--links">
@@ -42,11 +42,11 @@ function Header() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/overview" element={<Overview />} />
                     <Route path="/publications" element={<PublicationList />} />
-                    <Route path="/overview-01" element={<OverviewNo1 />} />
-                    <Route path="/overview-02" element={<OverviewNo2/>} />
-                    <Route path="/overview-03" element={<OverviewNo3/>} />
+                    <Route path="/overview/overview-01" element={<OverviewNo1 />} />
+                    <Route path="/overview/overview-02" element={<OverviewNo2/>} />
+                    <Route path="/overview/overview-03" element={<OverviewNo3/>} />
                 </Routes>
-            </HashRouter>
+            </Router>
 
         </>
     );
