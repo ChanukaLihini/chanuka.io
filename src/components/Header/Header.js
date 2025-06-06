@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Header.css';
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, Navigate, HashRouter } from "react-router-dom";
 import Home from "./../Home/Home";
 import PublicationList from "./../Publication/PublicationList";
 import About from "./../About/About";
@@ -20,7 +20,7 @@ function Header() {
 
     return (
         <>
-            <Router>
+            <HashRouter>
                 <nav className="main-nav">
                     <Link className="main-nav--logo  main-nav--text" to="/"></Link>
                     <div className="main-nav--links">
@@ -46,7 +46,7 @@ function Header() {
                     <Route path="/overview-02" element={<OverviewNo2/>} />
                     <Route path="/overview-03" element={<OverviewNo3/>} />
                 </Routes>
-            </Router>
+            </HashRouter>
 
         </>
     );
