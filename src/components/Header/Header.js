@@ -46,6 +46,8 @@ function Header() {
                     <Route path={basePath+ "/overview/overview-01"} element={<OverviewNo1 />} />
                     <Route path={basePath+ "/overview/overview-02"}element={<OverviewNo2/>} />
                     <Route path={basePath+ "/overview/overview-03"} element={<OverviewNo3/>} />
+                    <Route path="*" element={<Navigate to={basePath + "/"} replace />} />
+
                 </Routes>
             </Router>
 
