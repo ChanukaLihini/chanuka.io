@@ -8,7 +8,7 @@ function Overview() {
 
     return (<>
        <div className="overview-container">
-       <HeaderLine title="Research" />
+       <HeaderLine title="Projects" />
         <div className="research-card--list">
             {ResearchContent.map((props, index) => {
                 return (<div ><ResearchCard key={index} props={props} /></div>);

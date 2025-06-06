@@ -4,6 +4,8 @@
     font-weight: 400;
     font-size: 25px;
     letter-spacing: 1px;
+    color: whitesmoke;
+    line-height: 2.5em;
   }
 
   .publication-line--detailed {

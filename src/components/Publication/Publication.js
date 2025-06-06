@@ -5,7 +5,7 @@ function Publication({ props }) {
     return (
         <>
             <div class="publication-content">
-                <h3 class="publication-line--header">{props.title}</h3>
+                <a href={props.url} target='_blank' class="publication-line--header" rel="noreferrer">{props.title}</a>
                 <p class="publication-line--detailed">
                     {props.authors.map((author, index) => {
                         return <span key={index} style={author.highlighted ? { color: '#2185d5'} : {}}>{author.name} </span>

@@ -18,7 +18,7 @@
   .profile-image {
     border: 16px solid #3a4750;
     border-radius: 100%;
-    width: 35em;
+    width: 20em;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     animation: profile-animation 1s ease 0s 1 normal forwards;
@@ -30,11 +30,12 @@
   align-content: normal;
   font-family: "Roboto Thin", sans-serif;
   color: white;
-  padding-top: 2.5em;
+  margin-top: -1.5em;
   padding-left: 4em;
   max-width: 40em;
 
   h1 {
+    margin-bottom: 0;
     letter-spacing: 2px;
     font-size: 60px;
     font-weight: 900;
@@ -54,6 +55,7 @@
 
 .cv_download {
   height: 3em;
+  margin-bottom: 1em;
   font-size: large;
   border-radius: 5em;
   width: 8em;

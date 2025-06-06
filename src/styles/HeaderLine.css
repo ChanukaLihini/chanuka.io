@@ -3,7 +3,11 @@
     max-height: 200px;
     padding: 2em 4em;
     color: white;
-    animation: headerLineAnimation  1s ease 0s 1 normal forwards;
+    /* animation: headerLineAnimation  1s ease 0s 1 normal forwards; */
+
+    &.non-padded {
+        padding: 0;
+    }
 }
 
 .title {

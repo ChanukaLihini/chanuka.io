@@ -1,6 +1,7 @@
 export const Publications = [
     {
       title: 'Effect of Geometrical Parameters on PneuNet Bending Performance',
+      url:'https://ieeexplore.ieee.org/abstract/document/9906262',
       authors: [
         { name: 'T Tennakoon', highlighted: true },
         { name: ', A Kulasekera', highlighted: false },
@@ -13,6 +14,8 @@ export const Publications = [
     {
       title:
         'Variable Stiffness Soft Actuator using Layer Jamming for Food Handling',
+      url:'https://ieeexplore.ieee.org/abstract/document/9906262',
+
       authors: [
         { name: 'C.L.Tennakoon', highlighted: true },
         { name: ', A.L.Kulasekera', highlighted: false },
@@ -25,6 +28,8 @@ export const Publications = [
     {
       title:
         'Development and Characterization of an Origami-Based Vacuum-Driven Bending Actuator for Soft Gripping',
+              url:'https://ieeexplore.ieee.org/abstract/document/9906262',
+
       authors: [
         { name: 'S.Himaruwan, ', highlighted: false },
         { name: 'C.L.Tennakoon', highlighted: true },
@@ -37,6 +42,8 @@ export const Publications = [
 
     {
       title: 'Soft roboticsto ensure safe food handling',
+            url:'https://ieeexplore.ieee.org/abstract/document/9906262',
+
       authors: [
         { name: 'Lihini C.', highlighted: true },
         { name: ', Kulasekera A.', highlighted: false },

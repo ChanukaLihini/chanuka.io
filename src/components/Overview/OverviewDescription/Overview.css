@@ -1,0 +1,47 @@
+img {
+    vertical-align: middle;
+    text-align: center;
+    max-width: 500px;
+    max-height: 300px;
+    padding: 0.5em;
+}
+
+.row {
+    text-align: center;
+
+}
+
+.desc {
+    text-align: justify;
+    padding: 1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.main-container {
+    padding: 5em 15em 0 15em;
+
+    .back-btn-container {
+        padding-top: 1em;
+    }
+}
+
+.image--inline {
+    padding: 2em;
+    display: flex;
+
+    img {
+        max-width: 400px;
+    }
+}
+
+back-btn-container {
+    padding-top: 1em;
+}

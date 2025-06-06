@@ -7,7 +7,7 @@
   margin-bottom: 1em;
   border-left: 2px solid #3a4750;
   letter-spacing: 1px;
-  animation: descriptionLineAnimation 2s ease 0s 1 normal forwards;
+  /* animation: descriptionLineAnimation 2s ease 0s 1 normal forwards; */
 
   h3 {
     font-family: "Roboto", sans-serif;
@@ -17,7 +17,7 @@
   }
 
   h3 {
-    animation: descriptionLineAnimation 1s ease 0s 1 normal forwards;
+    /* animation: descriptionLineAnimation 1s ease 0s 1 normal forwards; */
   }
 }
 

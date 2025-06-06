@@ -6,6 +6,9 @@ import PublicationList from "./../Publication/PublicationList";
 import About from "./../About/About";
 import Contact from "./../Contact/Contact";
 import Overview from "./../Overview/Overview";
+import OverviewNo1 from "../Overview/OverviewDescription/OverviewNo1";
+import OverviewNo2 from "../Overview/OverviewDescription/OverviewNo2";
+import OverviewNo3 from "../Overview/OverviewDescription/OverviewNo3";
 
 
 function Header() {
@@ -19,14 +22,14 @@ function Header() {
         <>
             <Router>
                 <nav className="main-nav">
-                    <Link className="main-nav--logo  main-nav--text" to="/">Home</Link>
+                    <Link className="main-nav--logo  main-nav--text" to="/"></Link>
                     <div className="main-nav--links">
-                        <Link className="main-nav--text" to="/about">About</Link>
+                        <Link className="main-nav--text" to="/">Home</Link>
                         <div className="main-nav-dropdown">
                             <button className="dropdown-button main-nav--text" onClick={onResearchClick} >Research
                             </button>
                             <div onMouseOut={onResearchClick} className={!researchClicked ? 'dropdown-hide' : 'dropdown-content'}>
-                                <Link className="dropdown--text" to="/overview">Overview</Link>
+                                <Link className="dropdown--text" to="/overview">Projects</Link>
                                 <Link className="dropdown--text" to="/publications">Publications</Link>
                             </div>
                         </div >
@@ -39,6 +42,9 @@ function Header() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/overview" element={<Overview />} />
                     <Route path="/publications" element={<PublicationList />} />
+                    <Route path="/overview-01" element={<OverviewNo1 />} />
+                    <Route path="/overview-02" element={<OverviewNo2/>} />
+                    <Route path="/overview-03" element={<OverviewNo3/>} />
                 </Routes>
             </Router>
 
