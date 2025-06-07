@@ -1,6 +1,7 @@
 import firstImage from "./../images/overview01_1.jpg";
 import secondImage from "./../images/overview02_1.jpg";
 import thirdImage from "./../images/overview03_1.png";
+import forthImage from "./../images/overview04_4.jpeg"
 const basePath = "/chanuka.io/#/overview";
 
 export const ResearchContent = [
@@ -26,7 +27,7 @@ export const ResearchContent = [
     title: "Large scale 3D printing platform for marine vessels and components",
     description: "",
     url: basePath + "/overview-04",
-    imgUrl: thirdImage,
+    imgUrl: forthImage,
   },
   {
     title: "Continuum robot arm for pipe inspection",

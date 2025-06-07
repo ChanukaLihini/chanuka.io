@@ -1,9 +1,10 @@
-import firstImage from "./../../../images/overview03_1.png";
-import secondImage from "./../../../images/overview03_2.png";
-import thirdImage from "./../../../images/overview03_3.png";
+import firstImage from "./../../../images/overview04_1.jpg";
+import secondImage from "./../../../images/overview04_2.jpeg";
+import thirdImage from "./../../../images/overview04_3.jpeg";
+import forthImage from "./../../../images/overview04_4.jpeg"
 import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
-import sampleVideo from "./../../../videos/sample.mp4";
+import firstVideo from "./../../../videos/overview03_video_1.mp4";
 
 import "./Overview.css";
 
@@ -32,6 +33,7 @@ function OverviewNo4() {
           <img src={firstImage} alt="" />
           <img src={secondImage} alt="" />
           <img src={thirdImage} alt="" />
+          <img src={forthImage} alt="" />
 
           <div className="desc">
             This project involved the design and development of a large-scale
@@ -55,8 +57,8 @@ function OverviewNo4() {
             robotic 3D printing in heavy industrial applications.
           </div>
 
-          <video width="640" height="360" controls>
-            <source src={sampleVideo} type="video/mp4" />
+         <video width="640" height="360" controls>
+            <source src={firstVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

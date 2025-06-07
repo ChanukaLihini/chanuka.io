@@ -60,10 +60,10 @@ function OverviewNo5() {
             environments.
           </div>
 
-          <video width="640" height="360" controls>
+          {/* <video width="640" height="360" controls>
             <source src={sampleVideo} type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
         </div>
       </div>
     </>

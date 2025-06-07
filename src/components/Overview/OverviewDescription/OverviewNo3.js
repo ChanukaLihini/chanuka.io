@@ -3,7 +3,6 @@ import secondImage from "./../../../images/overview03_2.png";
 import thirdImage from "./../../../images/overview03_3.png";
 import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
-import sampleVideo from "./../../../videos/sample.mp4";
 
 import "./Overview.css";
 
@@ -42,11 +41,6 @@ function OverviewNo3() {
           <div className="desc">
             This origami-inspired soft actuator demonstrates promising potential for various uses, particularly in handling soft, delicate and complex shaped objects, where flexible, lightweight, and reliable actuation is required.
           </div>
-
-          <video width="640" height="360" controls>
-            <source src={sampleVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
         </div>
       </div>
     </>
