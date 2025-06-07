@@ -1,6 +1,6 @@
-import firstImage from "./../../../images/overview03_1.png";
-import secondImage from "./../../../images/overview03_2.png";
-import thirdImage from "./../../../images/overview03_3.png";
+import firstImage from "./../../../images/overview05_1.png";
+import secondImage from "./../../../images/overview05_2.png";
+import thirdImage from "./../../../images/overview05_3.png";
 import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
 
