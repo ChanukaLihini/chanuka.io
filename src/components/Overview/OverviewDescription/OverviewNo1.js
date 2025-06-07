@@ -24,7 +24,7 @@ function OverviewNo1() {
           </button>
         </div>
         <div class="header-line non-padded">
-          <h2>Soft robotic gripper with multiple grasping patterns</h2>
+          <h2>Soft robotic gripper with adaptive grasping</h2>
           <div className="title-line"></div>
         </div>
 
@@ -36,33 +36,38 @@ function OverviewNo1() {
           <img src={fifthImage} alt="" />
 
           <div className="desc">
-            This research focuses on the development of a novel hybrid soft
-            gripper, combining a Pneunet actuator with a layer jamming actuation
-            to address the limitations of traditional soft actuators. By
-            integrating these two actuation methods, the gripper achieves
-            enhanced grasping force and precision. Through Finite Element
-            Analysis (FEA) and experimental testing, the effects of different
-            geometrical parameters on the Pneunet actuator's performance were
-            analyzed, leading to the selection of Sorta Clear 40 for the Pneunet
-            and sandpaper for the layer jamming components.
+            This project involved the development of a soft robotic gripper
+            capable of performing multiple grasping patterns. A novel hybrid
+            actuator was designed by integrating a PneuNet actuator with a layer
+            jamming mechanism, combining the compliance of soft actuation with
+            stiffness control of jamming-based locking. This approach addressed
+            the inherent limitations of conventional soft actuators, such as low
+            output force and lack of shape locking.
           </div>
 
           <div className="desc">
-            The hybrid design significantly improves the gripper's
-            functionality, offering increased grasping and tip force, as well as
-            a shape-locking feature activated through jamming. The proposed
-            gripper with reconfigurable mechanism allows the fingers to adjust
-            to various objects by changing its grasping pattern. This
-            adaptability makes the gripper suitable for a wide range of
-            applications and provides greater control during complex tasks.
+            Finite Element Analysis (FEA) and experimental studies were
+            conducted to analyze the influence of geometrical parameters on
+            PneuNet actuator performance. Materials were selected based on
+            mechanical testing: Smooth-On Sorta Clear 40 was used for the
+            PneuNet body, and sandpaper sheets were employed for the jamming
+            layers due to their high friction and stiffness properties.
           </div>
 
           <div className="desc">
-            To further enhance its capabilities, a vision- based system was
-            developed, enabling the gripper to autonomously select the optimal
-            grasping mode based on the object's shape, size and orientation.
-            This approach has led to a higher success rate compared to grippers
-            using universal grasping modes.
+            The resulting actuator demonstrated enhanced grasping and tip force,
+            along with a shape locking capability enabled by jamming actuation.
+            This actuator was then implemented in a reconfigurable soft gripper,
+            capable of autonomously switching between different grasping modes.
+          </div>
+          
+          <div className="desc">
+            To enable adaptive functionality, a vision-based system was
+            developed to identify object shape and size, allowing the gripper to
+            automatically select the most suitable grasping pattern. The
+            proposed system outperformed conventional grippers that rely on a
+            single universal grasping strategy, showing improved grasp success
+            rates across a variety of object types.
           </div>
         </div>
       </div>

@@ -5,33 +5,33 @@ const basePath = "/chanuka.io/#/overview";
 
 export const ResearchContent = [
   {
-    title: "Soft robotic gripper with multiple grasping patterns",
+    title: "Soft robotic gripper with adaptive grasping",
     description: "",
     imgUrl: firstImage,
     url: basePath + "/overview-01",
   },
   {
-    title: "Self-reconfigurable modular robot for search and rescue",
+    title: "Reconfigurable Modular Robots for Search and Rescue Missions",
     description: "",
     url: basePath + "/overview-02",
     imgUrl: secondImage,
   },
   {
-    title: "Origami-based soft actuator",
+    title: "Design and development of an origami-based soft actuator",
     description: "",
     url: basePath + "/overview-03",
     imgUrl: thirdImage,
   },
   {
-    title: "Large scale 3D printing platform using a Robot arm",
+    title: "Large scale 3D printing platform for marine vessels and components",
     description: "",
-    url: basePath + "/overview-03",
+    url: basePath + "/overview-04",
     imgUrl: thirdImage,
   },
   {
-    title: "Continuum Robot arm for pipe inspection",
+    title: "Continuum robot arm for pipe inspection",
     description: "",
-    url: basePath + "/overview-03",
+    url: basePath + "/overview-05",
     imgUrl: thirdImage,
   },
 ];

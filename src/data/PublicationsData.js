@@ -1,12 +1,23 @@
 export const Publications = [
     {
+      title: 'PneuNet Based Hybrid Soft Gripper for Multi-Shape Object Handling',
+      url:'https://ieeexplore.ieee.org/abstract/document/10792893',
+      authors:[
+         { name: 'T Tennakoon', highlighted: true },
+        { name: ', A Kulasekera', highlighted: false },
+        { name: ', R Gopura', highlighted: false },
+        { name: 'and D Chathuranga', highlighted: false },
+        
+      ]
+    },
+    {
       title: 'Effect of Geometrical Parameters on PneuNet Bending Performance',
-      url:'https://ieeexplore.ieee.org/abstract/document/9906262',
+      url:'https://ieeexplore.ieee.org/abstract/document/9659425',
       authors: [
         { name: 'T Tennakoon', highlighted: true },
         { name: ', A Kulasekera', highlighted: false },
-        { name: ',D Chathuranga', highlighted: false },
-        { name: ',R Gopura', highlighted: false },
+        { name: ', D Chathuranga', highlighted: false },
+        { name: 'and R Gopura', highlighted: false },
       ],
       conference: 'International Conference on Advanced Robotics (ICAR), 2021',
       ref: 'DOI:10.1109/ICAR53236.2021.9659425',
@@ -28,7 +39,7 @@ export const Publications = [
     {
       title:
         'Development and Characterization of an Origami-Based Vacuum-Driven Bending Actuator for Soft Gripping',
-              url:'https://ieeexplore.ieee.org/abstract/document/9906262',
+              url:'https://ieeexplore.ieee.org/abstract/document/10122080',
 
       authors: [
         { name: 'S.Himaruwan, ', highlighted: false },

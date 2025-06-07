@@ -7,7 +7,7 @@ import sampleVideo from "./../../../videos/sample.mp4";
 
 import "./Overview.css";
 
-function OverviewNo3() {
+function OverviewNo4() {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -22,7 +22,9 @@ function OverviewNo3() {
           </button>
         </div>
         <div class="header-line non-padded">
-          <h2>Design and development of an origami-based soft actuator</h2>
+          <h2>
+            Large scale 3D printing platform for marine vessels and components
+          </h2>
           <div className="title-line"></div>
         </div>
 
@@ -32,15 +34,25 @@ function OverviewNo3() {
           <img src={thirdImage} alt="" />
 
           <div className="desc">
-            This research focuses on the design and development of an origami-based soft actuator, inspired by the intricate folding patterns of origami. The actuator utilizes a vacuum-driven mechanism combined with a skeletal structure to achieve soft bending movements. The structure is crafted from a thin polyvinyl chloride (PVC) sheet, folded into origami patterns, which provides both flexibility and strength. The skeleton is encased in a pouch made from thermoplastic polyurethane (TPU) coated polyester fabric, ensuring durability and efficient performance under vacuum pressure.
+            This project involved the design and development of a large-scale
+            robotic 3D printing system for fabricating marine vessels and
+            structural components. The project was conducted under DynamicsLK
+            (Pvt) Ltd and successfully implemented in Abu Dhabi, UAE.
           </div>
 
           <div className="desc">
-            The skeletal design allows for precise control of the actuator's bending motion, making it ideal for applications requiring delicate handling and flexibility. To evaluate its performance, the actuator was subjected to experimental testing, where its bending angle, blocked force, and holding force were evaluated.
+            The system utilized a KUKA KR 240 R2700 Prime industrial robot arm,
+            integrated with a custom PLA pellet-based extrusion system. A key
+            challenge was the development of a robust control interface to
+            enable seamless communication between the extrusion system and the
+            KUKA KR C2 robot controller.
           </div>
 
           <div className="desc">
-            This origami-inspired soft actuator demonstrates promising potential for various uses, particularly in handling soft, delicate and complex shaped objects, where flexible, lightweight, and reliable actuation is required.
+            The outcome was a fully functional large-scale additive
+            manufacturing setup capable of printing complex marine components
+            with high precision and repeatability, showcasing the potential of
+            robotic 3D printing in heavy industrial applications.
           </div>
 
           <video width="640" height="360" controls>
@@ -53,4 +65,4 @@ function OverviewNo3() {
   );
 }
 
-export default OverviewNo3;
+export default OverviewNo4;
