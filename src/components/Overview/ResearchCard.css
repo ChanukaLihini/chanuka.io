@@ -127,3 +127,7 @@ article:has(:hover, :focus) {
     white-space: nowrap; 
     width: 1px;
   }
+
+  .non-padded {
+    padding: 0;
+  }

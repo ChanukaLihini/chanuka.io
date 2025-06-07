@@ -7,7 +7,7 @@ function ResearchCard({props}) {
         <article className="research-card">
             <div class="research-card-wrapper">
                 <figure>
-                    <img src={props.imgUrl} alt="" />
+                    <img className="non-padded" src={props.imgUrl} alt="" />
                 </figure>
                 <div class="research-card--body">
                     <h2>{props.title}</h2>
