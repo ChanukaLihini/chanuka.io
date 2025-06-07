@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/chanuka.io/static/css/main.635d021e.css",
-    "main.js": "/chanuka.io/static/js/main.c134ad85.js",
+    "main.js": "/chanuka.io/static/js/main.c79875a9.js",
     "static/js/453.5b3fd90a.chunk.js": "/chanuka.io/static/js/453.5b3fd90a.chunk.js",
-    "static/media/sample.mp4": "/chanuka.io/static/media/sample.feb6353d7a549f0cc945.mp4",
+    "static/media/overview04_1.jpg": "/chanuka.io/static/media/overview04_1.1132c8370906775b889a.jpg",
+    "static/media/overview03_video_1.mp4": "/chanuka.io/static/media/overview03_video_1.feb6353d7a549f0cc945.mp4",
     "static/media/overview03_3.png": "/chanuka.io/static/media/overview03_3.724cef4bc8b295a9fc6d.png",
     "static/media/overview01_2.jpg": "/chanuka.io/static/media/overview01_2.1baa0ae61b8dbba4e266.jpg",
     "static/media/overview01_5.jpg": "/chanuka.io/static/media/overview01_5.c42496f0c40faec1525b.jpg",
@@ -13,19 +14,22 @@
     "static/media/overview01_3.jpg": "/chanuka.io/static/media/overview01_3.8e302b53c4597c80a6cf.jpg",
     "static/media/overview03_1.png": "/chanuka.io/static/media/overview03_1.1598b9250afe9ddbfb1c.png",
     "static/media/chanuka.png": "/chanuka.io/static/media/chanuka.a36a834881c274a90082.png",
-    "static/media/overview01_4.jpg": "/chanuka.io/static/media/overview01_4.42e7588d03a1dd0c7ce7.jpg",
+    "static/media/overview04_2.jpeg": "/chanuka.io/static/media/overview04_2.8833f36f0e417912c280.jpeg",
+    "static/media/overview01_4.jpg": "/chanuka.io/static/media/overview01_4.7e90591c2c310343d62c.jpg",
+    "static/media/overview04_3.jpeg": "/chanuka.io/static/media/overview04_3.36ab8d831b61ea800bca.jpeg",
     "static/media/overview01_1.jpg": "/chanuka.io/static/media/overview01_1.e56bcc48a3a11f56e3a0.jpg",
+    "static/media/overview04_4.jpeg": "/chanuka.io/static/media/overview04_4.f7930a8a671e3cb7b050.jpeg",
     "static/media/ResearchGate_logo.png": "/chanuka.io/static/media/ResearchGate_logo.2ee3a45ee046573c34b1.png",
     "static/media/CV_ChanukaLihini.pdf": "/chanuka.io/static/media/CV_ChanukaLihini.e2593251357d110513e6.pdf",
     "static/media/GoogleScholar_logo.png": "/chanuka.io/static/media/GoogleScholar_logo.133e439a87fbe8c810f6.png",
     "static/media/LinkedIn_logo.png": "/chanuka.io/static/media/LinkedIn_logo.b6fe5de3515687849a75.png",
     "index.html": "/chanuka.io/index.html",
     "main.635d021e.css.map": "/chanuka.io/static/css/main.635d021e.css.map",
-    "main.c134ad85.js.map": "/chanuka.io/static/js/main.c134ad85.js.map",
+    "main.c79875a9.js.map": "/chanuka.io/static/js/main.c79875a9.js.map",
     "453.5b3fd90a.chunk.js.map": "/chanuka.io/static/js/453.5b3fd90a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.635d021e.css",
-    "static/js/main.c134ad85.js"
+    "static/js/main.c79875a9.js"
   ]
 }
