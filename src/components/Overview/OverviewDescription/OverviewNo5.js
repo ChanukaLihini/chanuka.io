@@ -59,11 +59,15 @@ function OverviewNo5() {
             environments.
           </div>
 
-           <video width="640" height="360" controls>
-            <source src="https://www.youtube.com/watch?v=wGhFsWoppss" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
+          <iframe
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/wGhFsWoppss"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </>
