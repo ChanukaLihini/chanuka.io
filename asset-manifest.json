@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chanuka.io/static/css/main.5966f78a.css",
-    "main.js": "/chanuka.io/static/js/main.ee6f14a1.js",
+    "main.js": "/chanuka.io/static/js/main.8fb1737c.js",
     "static/js/453.5b3fd90a.chunk.js": "/chanuka.io/static/js/453.5b3fd90a.chunk.js",
     "static/media/overview04_1.jpg": "/chanuka.io/static/media/overview04_1.1132c8370906775b889a.jpg",
     "static/media/overview03_video_1.mp4": "/chanuka.io/static/media/overview03_video_1.feb6353d7a549f0cc945.mp4",
@@ -27,17 +27,17 @@
     "static/media/overview01_1.jpg": "/chanuka.io/static/media/overview01_1.e56bcc48a3a11f56e3a0.jpg",
     "static/media/overview05_4.jpg": "/chanuka.io/static/media/overview05_4.25f0f1ef5cfbc0dd40fb.jpg",
     "static/media/overview04_4.jpeg": "/chanuka.io/static/media/overview04_4.f7930a8a671e3cb7b050.jpeg",
+    "static/media/CV_ChanukaLihini.pdf": "/chanuka.io/static/media/CV_ChanukaLihini.2120f9b4021a1d6a6e4d.pdf",
     "static/media/ResearchGate_logo.png": "/chanuka.io/static/media/ResearchGate_logo.2ee3a45ee046573c34b1.png",
-    "static/media/CV_ChanukaLihini.pdf": "/chanuka.io/static/media/CV_ChanukaLihini.e2593251357d110513e6.pdf",
     "static/media/GoogleScholar_logo.png": "/chanuka.io/static/media/GoogleScholar_logo.133e439a87fbe8c810f6.png",
     "static/media/LinkedIn_logo.png": "/chanuka.io/static/media/LinkedIn_logo.b6fe5de3515687849a75.png",
     "index.html": "/chanuka.io/index.html",
     "main.5966f78a.css.map": "/chanuka.io/static/css/main.5966f78a.css.map",
-    "main.ee6f14a1.js.map": "/chanuka.io/static/js/main.ee6f14a1.js.map",
+    "main.8fb1737c.js.map": "/chanuka.io/static/js/main.8fb1737c.js.map",
     "453.5b3fd90a.chunk.js.map": "/chanuka.io/static/js/453.5b3fd90a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5966f78a.css",
-    "static/js/main.ee6f14a1.js"
+    "static/js/main.8fb1737c.js"
   ]
 }
