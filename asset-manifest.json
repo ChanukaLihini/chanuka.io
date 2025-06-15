@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chanuka.io/static/css/main.180d720f.css",
-    "main.js": "/chanuka.io/static/js/main.5c2b3994.js",
+    "main.js": "/chanuka.io/static/js/main.91d291d9.js",
     "static/js/453.5b3fd90a.chunk.js": "/chanuka.io/static/js/453.5b3fd90a.chunk.js",
     "static/media/overview04_1.jpg": "/chanuka.io/static/media/overview04_1.1132c8370906775b889a.jpg",
     "static/media/overview03_video_1.mp4": "/chanuka.io/static/media/overview03_video_1.feb6353d7a549f0cc945.mp4",
@@ -15,7 +15,9 @@
     "static/media/overview03_1.png": "/chanuka.io/static/media/overview03_1.1598b9250afe9ddbfb1c.png",
     "static/media/chanuka.png": "/chanuka.io/static/media/chanuka.a36a834881c274a90082.png",
     "static/media/overview05_3.png": "/chanuka.io/static/media/overview05_3.5c51edefce09c36047fc.png",
+    "static/media/origami gripper.jpg": "/chanuka.io/static/media/origami gripper.0335dd76f01edc91ff2e.jpg",
     "static/media/overview05_2.png": "/chanuka.io/static/media/overview05_2.02d505d022c05de98cdd.png",
+    "static/media/soft gripper.jpg": "/chanuka.io/static/media/soft gripper.37c9388fbcc852307584.jpg",
     "static/media/overview05_1.png": "/chanuka.io/static/media/overview05_1.8e65d04b2d172d7f87e2.png",
     "static/media/Morabot.jpg": "/chanuka.io/static/media/Morabot.f2281d33bff67f6651b3.jpg",
     "static/media/overview04_2.jpeg": "/chanuka.io/static/media/overview04_2.8833f36f0e417912c280.jpeg",
@@ -30,11 +32,11 @@
     "static/media/LinkedIn_logo.png": "/chanuka.io/static/media/LinkedIn_logo.b6fe5de3515687849a75.png",
     "index.html": "/chanuka.io/index.html",
     "main.180d720f.css.map": "/chanuka.io/static/css/main.180d720f.css.map",
-    "main.5c2b3994.js.map": "/chanuka.io/static/js/main.5c2b3994.js.map",
+    "main.91d291d9.js.map": "/chanuka.io/static/js/main.91d291d9.js.map",
     "453.5b3fd90a.chunk.js.map": "/chanuka.io/static/js/453.5b3fd90a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.180d720f.css",
-    "static/js/main.5c2b3994.js"
+    "static/js/main.91d291d9.js"
   ]
 }
