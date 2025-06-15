@@ -1,7 +1,7 @@
 import firstImage from "./../images/soft gripper.jpg";
 import secondImage from "./../images/Morabot.jpg";
 import thirdImage from "./../images/origami gripper.jpg";
-import forthImage from "./../images/overview04_4.jpeg"
+import forthImage from "./../images/3D printer.jpg"
 import fifthImage from "./../images/overview05_4.jpg"
 const basePath = "/chanuka.io/#/overview";
 
