@@ -25,6 +25,10 @@
     color: white;
   }
 
+  .main-nav--text:hover {
+    color: #2185d5;
+  }
+
   .main-nav--dropdown {
     float: left;
     overflow: hidden;
@@ -44,6 +48,8 @@
 }
 
 .dropdown-content {
+  border:#2185d5 solid 2px;
+  border-radius: 5%;
   position: absolute;
   background-color: #303841;
   min-width: 160px;
@@ -65,6 +71,6 @@
   }
 
   a:hover {
-    background-color: #ddd;
+    background-color: #2185d5;
   }
 }
