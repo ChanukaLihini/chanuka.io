@@ -31,7 +31,7 @@ export const Experiences = [
     title: "Lecturer (On Contract)",
     subtitle:
       "Faculty of Technology, University of Sri Jayawardenepura, Sri Lanka",
-    timeline: "2023 - Present",
+    timeline: "2024 - Present",
     description: [],
   },
   {
@@ -44,12 +44,6 @@ export const Experiences = [
     title: "Visiting Lecturer",
     subtitle: "ACBT Campus, Sri Lanka",
     timeline: "2024 - Present",
-    description: [],
-  },
-  {
-    title: "Research Assistant",
-    subtitle: "University of Moratuwa, Sri Lanka",
-    timeline: "2019 - 2023",
     description: [],
   }
 ];
