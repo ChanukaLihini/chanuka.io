@@ -5,6 +5,8 @@ import forthImage from "./../../../images/overview04_4.jpeg";
 import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
 import firstVideo from "./../../../videos/overview03_video_1.mp4";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretLeft} from '@fortawesome/free-solid-svg-icons';
 
 import "./Overview.css";
 
@@ -18,8 +20,9 @@ function OverviewNo4() {
     <>
       <div className="main-container">
         <div className="back-btn-container">
-          <button className="back-btn" onClick={handleClick}>
-            Back
+            <button className="back-btn" onClick={handleClick}>
+            <FontAwesomeIcon icon={faCaretLeft} />             
+            <span> Projects</span>
           </button>
         </div>
         <div class="header-line non-padded">

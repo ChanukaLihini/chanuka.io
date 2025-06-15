@@ -9,6 +9,7 @@
   }
 
   .publication-line--detailed {
+    margin-top: -0.4em;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 0.5px;

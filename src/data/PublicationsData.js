@@ -7,8 +7,8 @@ export const Publications = [
         { name: ', A Kulasekera', highlighted: false },
         { name: ', R Gopura', highlighted: false },
         { name: 'and D Chathuranga', highlighted: false },
-        
-      ]
+      ],
+      conference: 'IEEE Access, 2024'
     },
     {
       title: 'Effect of Geometrical Parameters on PneuNet Bending Performance',
@@ -52,8 +52,8 @@ export const Publications = [
     },
 
     {
-      title: 'Soft roboticsto ensure safe food handling',
-            url:'https://ieeexplore.ieee.org/abstract/document/9906262',
+      title: 'Soft robotics to ensure safe food handling',
+            url:'https://dl.lib.uom.lk/items/e1b0a187-feec-4dfc-b458-1f7e250c0d75',
 
       authors: [
         { name: 'Lihini C.', highlighted: true },

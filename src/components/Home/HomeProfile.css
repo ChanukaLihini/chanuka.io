@@ -19,13 +19,19 @@
   .profile-image {
     border: 16px solid #3a4750;
     border-radius: 100%;
-    width: 20em;
+    width: 18em;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     animation: profile-animation 1s ease 0s 1 normal forwards;
     img {
         padding: 0;
       }
+  }
+
+  .profile-image__line {
+    border: 2px solid #2185d5;
+    border-radius: 100%;
+    animation: profile-animation 1s ease 0s 1 normal forwards;
   }
 }
 

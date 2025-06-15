@@ -29,7 +29,7 @@ function Header() {
                     <div className="main-nav--links">
                         <Link className="main-nav--text" to={basePath}>Home</Link>
                         <div className="main-nav-dropdown">
-                            <button className="dropdown-button main-nav--text" onMouseEnter={onResearchClick} onMouseLeave={onResearchClick}>Research
+                            <button className="dropdown-button main-nav--text" onMouseEnter={onResearchClick} onClick={onResearchClick}>Research
                             </button>
                             <div onMouseOut={onResearchClick} className={!researchClicked ? 'dropdown-hide' : 'dropdown-content'}>
                                 <Link className="dropdown--text" to={basePath + "/overview"}>Projects</Link>

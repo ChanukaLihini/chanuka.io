@@ -13,13 +13,13 @@ export const ResearchContent = [
     url: basePath + "/overview-01",
   },
   {
-    title: "Reconfigurable Modular Robots for Search and Rescue Missions",
+    title: "Reconfigurable Modular Robots - MORABOT",
     description: "",
     url: basePath + "/overview-02",
     imgUrl: secondImage,
   },
   {
-    title: "Design and development of an origami-based soft actuator",
+    title: "Origami-Based Vacuum-Driven Soft Actuator",
     description: "",
     url: basePath + "/overview-03",
     imgUrl: thirdImage,

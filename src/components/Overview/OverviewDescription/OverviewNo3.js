@@ -3,6 +3,9 @@ import secondImage from "./../../../images/overview03_2.png";
 import thirdImage from "./../../../images/overview03_3.png";
 import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretLeft} from '@fortawesome/free-solid-svg-icons';
+
 
 import "./Overview.css";
 
@@ -17,7 +20,8 @@ function OverviewNo3() {
       <div className="main-container">
         <div className="back-btn-container">
           <button className="back-btn" onClick={handleClick}>
-            Back
+            <FontAwesomeIcon icon={faCaretLeft} />             
+            <span> Projects</span>
           </button>
         </div>
         <div class="header-line non-padded">
@@ -54,6 +58,27 @@ function OverviewNo3() {
               potential for various uses, particularly in handling soft,
               delicate and complex shaped objects, where flexible, lightweight,
               and reliable actuation is required.
+            </div>
+
+            <div className="publications__line">
+              <h3>Publications</h3>
+              <div className="slim-line"></div>
+              <ul>
+                <div className="publication__line">
+                  <a
+                    href="https://ieeexplore.ieee.org/abstract/document/10122080"
+                    target="_blank"
+                  >
+                    Development and Characterization of an Origami-Based
+                    Vacuum-Driven Bending Actuator for Soft Gripping
+                  </a>
+                  <div>S.Himaruwan, C.L.Tennakoon and A.L.Kulasekera </div>
+                  <div>
+                    IEEE International Conference on Soft Robotics (RoboSoft),
+                    2023
+                  </div>
+                </div>
+              </ul>
             </div>
           </div>
         </div>

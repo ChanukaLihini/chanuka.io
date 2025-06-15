@@ -2,6 +2,8 @@ import firstImage from "./../../../images/overview02_1.jpg";
 import secondImage from "./../../../images/overview02_2.png";
 import "./../../../styles/HeaderLine.css";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretLeft} from '@fortawesome/free-solid-svg-icons';
 
 import "./Overview.css";
 
@@ -15,8 +17,9 @@ function OverviewNo2() {
     <>
       <div className="main-container">
         <div className="back-btn-container">
-          <button className="back-btn" onClick={handleClick}>
-            Back
+             <button className="back-btn" onClick={handleClick}>
+            <FontAwesomeIcon icon={faCaretLeft} />             
+            <span> Projects</span>
           </button>
         </div>
 
