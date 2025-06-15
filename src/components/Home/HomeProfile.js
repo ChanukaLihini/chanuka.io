@@ -14,11 +14,13 @@ function HomeProfile() {
           <h2>Researcher | Lecturer</h2>
           {/* <h2>University of Moratuwa</h2> */}
           <p>
-            As an experienced software developer with over 4.5 years of
-            expertise, I specialize in delivering cutting-edge engineering
-            solutions across diverse applications and technologies. My
-            proficiency extends to full-stack development, allowing me to craft
-            interactive
+            Robotics researcher with expertise in soft robotics, swarm robotics,
+            and robotic manipulators. Currently working as a lecturer in the
+            fields of mechatronics, robotics, and automation. Research interests
+            focus on the development of bio-inspired and adaptive robotic
+            systems with real-world applicability. Experienced in designing and
+            prototyping novel robotic mechanisms, integrating advanced control
+            systems, and implementing industrial automation solutions.
           </p>
 
           <button className="cv-download" onClick={downloadCV}>

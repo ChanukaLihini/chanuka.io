@@ -1,5 +1,5 @@
 import firstImage from "./../images/overview01_1.jpg";
-import secondImage from "./../images/overview02_3.png";
+import secondImage from "./../images/Morabot.jpg";
 import thirdImage from "./../images/overview03_1.png";
 import forthImage from "./../images/overview04_4.jpeg"
 import fifthImage from "./../images/overview05_4.jpg"
