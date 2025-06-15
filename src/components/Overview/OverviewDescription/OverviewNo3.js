@@ -30,16 +30,31 @@ function OverviewNo3() {
           <img src={secondImage} alt="" />
           <img src={thirdImage} alt="" />
 
-          <div className="desc">
-            This research focuses on the design and development of an origami-based soft actuator, inspired by the intricate folding patterns of origami. The actuator utilizes a vacuum-driven mechanism combined with a skeletal structure to achieve soft bending movements. The structure is crafted from a thin polyvinyl chloride (PVC) sheet, folded into origami patterns, which provides both flexibility and strength. The skeleton is encased in a pouch made from thermoplastic polyurethane (TPU) coated polyester fabric, ensuring durability and efficient performance under vacuum pressure.
-          </div>
+          <div className="desc__container">
+            <div className="desc">
+              This research focuses on the design and development of an
+              origami-based soft actuator, inspired by the intricate folding
+              patterns of origami. The actuator utilizes a vacuum-driven
+              mechanism combined with a skeletal structure to achieve soft
+              bending movements. The structure is crafted from a thin polyvinyl
+              chloride (PVC) sheet, folded into origami patterns, which provides
+              both flexibility and strength. The skeleton is encased in a pouch
+              made from thermoplastic polyurethane (TPU) coated polyester
+              fabric, ensuring durability and efficient performance under vacuum
+              pressure.
+            </div>
 
-          <div className="desc">
-            The skeletal design allows for precise control of the actuator's bending motion, making it ideal for applications requiring delicate handling and flexibility. To evaluate its performance, the actuator was subjected to experimental testing, where its bending angle, blocked force, and holding force were evaluated.
-          </div>
-
-          <div className="desc">
-            This origami-inspired soft actuator demonstrates promising potential for various uses, particularly in handling soft, delicate and complex shaped objects, where flexible, lightweight, and reliable actuation is required.
+            <div className="desc">
+              The skeletal design allows for precise control of the actuator's
+              bending motion, making it ideal for applications requiring
+              delicate handling and flexibility. To evaluate its performance,
+              the actuator was subjected to experimental testing, where its
+              bending angle, blocked force, and holding force were evaluated.
+              This origami-inspired soft actuator demonstrates promising
+              potential for various uses, particularly in handling soft,
+              delicate and complex shaped objects, where flexible, lightweight,
+              and reliable actuation is required.
+            </div>
           </div>
         </div>
       </div>

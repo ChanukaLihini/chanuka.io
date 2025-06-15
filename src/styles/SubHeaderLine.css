@@ -19,11 +19,6 @@
     height: fit-content;
 }
 
-.timeline-card:hover{
-    background-color: #2185d5;
-    color: white;
-    /* animation: timelineCardAnimation 1s ease 0s 1 normal forwards; */
-}
 
 @keyframes timelineCardAnimation {
     0% {

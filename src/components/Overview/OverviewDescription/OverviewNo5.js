@@ -30,6 +30,7 @@ function OverviewNo5() {
           <img src={secondImage} alt="" />
           <img src={thirdImage} alt="" />
 
+ <div className="desc__container">
           <div className="desc">
             This project focused on the design and development of a continuum
             robotic arm intended for navigating narrow and complex pipe systems
@@ -59,6 +60,7 @@ function OverviewNo5() {
             environments.
           </div>
 
+</div>
           <iframe
             width="640"
             height="360"

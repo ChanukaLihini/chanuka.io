@@ -28,36 +28,34 @@ function OverviewNo2() {
         <div className="row">
           <img src={firstImage} alt="" />
           <img src={secondImage} alt="" />
-          <div className="desc">
-            This project focused on the development of reconfigurable modular
-            robots designed for search and rescue operations in collapsed or
-            hazardous environments. The primary design goals were adaptability
-            and reliability, ensuring continued operation even in the event of
-            partial system failures.
-          </div>
+          <div className="desc__container">
+            <div className="desc">
+              This project focused on the development of reconfigurable modular
+              robots designed for search and rescue operations in collapsed or
+              hazardous environments. The primary design goals were adaptability
+              and reliability, ensuring continued operation even in the event of
+              partial system failures.
+            </div>
 
-          <div className="desc">
-            Identical robot modules were developed, each equipped with an
-            onboard vision system, power supply, communication unit, and
-            independent mobility. This redundancy ensured that the system could
-            continue functioning even if individual modules failed.
-          </div>
+            <div className="desc">
+              Identical robot modules were developed, each equipped with an
+              onboard vision system, power supply, communication unit, and
+              independent mobility. This redundancy ensured that the system
+              could continue functioning even if individual modules failed.
+              A centralized control system was implemented, where an external
+              computer managed communication, processing, and coordination among
+              modules. Despite centralized processing, each module retained
+              enough autonomy to perform essential functions.
+            </div>
 
-          <div className="desc">
-            A centralized control system was implemented, where an external
-            computer managed communication, processing, and coordination among
-            modules. Despite centralized processing, each module retained enough
-            autonomy to perform essential functions.
+            <div className="desc">
+              The modules were designed to collaborate by physically connecting
+              to form complex shapes, enabling the robot to adapt to uneven or
+              obstructed terrains. The system successfully demonstrated
+              autonomous self-assembly, disassembly, and reconfiguration using
+              multiple modules to suit different operational needs.
+            </div>
           </div>
-
-          <div className="desc">
-            The modules were designed to collaborate by physically connecting to
-            form complex shapes, enabling the robot to adapt to uneven or
-            obstructed terrains. The system successfully demonstrated autonomous
-            self-assembly, disassembly, and reconfiguration using multiple
-            modules to suit different operational needs.
-          </div>
-
           <iframe
             width="640"
             height="360"
