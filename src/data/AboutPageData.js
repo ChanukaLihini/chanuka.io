@@ -37,7 +37,7 @@ export const Experiences = [
   {
     title: "Mechanical Engineer - Founding Partner",
     subtitle: "DynamicsLK (PVT) Ltd, Sri Lanka",
-    timeline: "2020 - 2024",
+    timeline: "2021 - 2024",
     description: [],
   },
   {
